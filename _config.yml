@@ -1,0 +1,44 @@
+# Site settings
+title: 觅兔先生的小卖铺
+url: "http://120.78.147.145"    # the protocol and hostname of your site, eg. `http://zhaoyuxiang.cn/blog`
+baseurl: "/" # the prefix of your site uri, eg. `/bohu-jekyll-theme` or just one slash `/`
+#timezone: Asia/Shanghai
+description: 日常所见所闻所感。
+# Your information
+email: 1129713332@qq.com
+author: Anchor #yourname #天道总司
+place: 厦门 #杭州
+domain: 互联网 #互联网
+company: 惠安东卡创新有限公司 #Jeeyoo
+position: 法人代表 #Technical Support
+school: 青岛科技大学 #浙江科技学院
+major: 通信工程 #测控技术与仪器
+resume: "http://120.78.147.145/photo"
+profile: 谢谢大家,我一定会变胖的! #yourmotto #聪明在于勤奋，天才在于积累。
+twitter_username: mitusir
+weibo_username:  觅兔先生
+github_username:  Anchor10
+
+# Comment Service (Disqus or 多说)
+#  choose one and un-comment the line to active it
+disqus_shortname: mitusir  
+# get one: https://disqus.com/admin/signup/
+# duoshuo_shortname: clark-zhao  
+# get one: http://duoshuo.com/create-site/
+
+permalink: /archivers/:title
+gems:
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
+
+# Build settings
+paginate: 2
+paginate_path: "/page:num"
+
+highlighter: rouge
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
